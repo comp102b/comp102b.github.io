@@ -1,0 +1,31 @@
+Working on Codenvy
+======================
+
+For the purposes of this course, we will use a web based software `Codenvy <https://codenvy.io/>`. Codenvy creates virtual machines
+in Ubuntu Linux for you to use, and it also provides a nice IDE for code development. In this tutorial, we will show you how to
+setup your Codenvy platform.
+
+1. Navigate to `Codenvy <https://codenvy.io/>` website
+2. Create a new account or log in with your existing account.
+3. Once you log in, you will be presented with a page to create a **Workspace** :
+
+.. image:: assets/code_1.png
+
+4. Select Source -> New from blank template, sample or project
+5. Select Stack -> Create new workspace from stack
+6. Under the tab "Ready-to-go stacks", scroll down and select the one named "**Python**"
+7. Select RAM to be 2 GB. You can at maximum select it to be 3GB.
+8. Leave other descriptions as it is, click on **Create**.
+
+Now you wait for a moment for Codenvy to set your IDE up.
+
+**Pro Tip** : If it takes too much time to set up, consider updating your browser or use
+a latest Chrome Browser
+
+Once it loads, you should see a screen like this :
+
+.. image:: assets/code_2.png
+
+On your left you will see the file browser, from where you can select any file
+and edit here. Hooray! You have setup the Codenvy platform! Now head over to Getting Started
+to setup our submission tool.
