@@ -24,6 +24,13 @@ and install the **comp102b** tool.
 
  sh setup.sh
 
+Now you need to setup your terminal for the environment variables. Type this from the
+terminal :
+
+::
+
+ source ~/.bashrc
+
 Your system is now ready for assignments.
 
 Manual Installation
