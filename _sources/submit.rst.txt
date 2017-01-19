@@ -1,0 +1,19 @@
+Submitting your Assignment
+==========================
+
+To submit the assignment, first navigate to the folder in which the problem lies.
+Your prompt should display the current folder as the problem name. For example,
+if you have started *problem-001*, then you must *cd* into this directory like this :
+
+::
+
+ :projects/$ cd problem-001
+ :projects/problem-001/$
+
+Notice the change in prompt. Now you can submit your assignment using this command :
+
+::
+
+ comp102b submit
+
+And then your submission will be submitted to our servers.

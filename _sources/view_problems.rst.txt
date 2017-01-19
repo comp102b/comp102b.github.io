@@ -1,0 +1,22 @@
+View Assignments
+=================
+
+You can view the available assignments using the following command :
+
+::
+
+ comp102b assignments
+
+You should see a table printed in the console which might be similar to this :
+
+::
+
+ Displaying assignments
+ +--------------+---------------------+--------+---------------------+---------------------+
+ | Assignment name | Assignment description | Points | Due date      | Last submit time    |
+ +--------------+---------------------+--------+---------------------+---------------------+
+ | problem-001  | inaugural problem   | 0      | 2017-01-18 23:59:59 | 2017-01-14 15:33:08 |
+ +--------------+---------------------+--------+---------------------+---------------------+
+
+This table will display all the assignments that are available to solve. Your last
+submit time will be displayed in the last column.

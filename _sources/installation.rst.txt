@@ -1,0 +1,71 @@
+Getting Started
+===================
+
+Script Installation
+-------------------
+
+Within your `Codenvy <https://codenvy.io/>`_ platform, open a 'Terminal' and run the following
+command. This will download a pre-built script to help your installation.
+
+::
+
+ git clone http://drgitlab.cs.mcgill.ca/comp102b/setup.git
+
+Now navigate into the directory :
+
+::
+
+ cd setup
+
+Then run the script. This script will install Python 2.7 in the Codenvy system
+and install the **comp102b** tool.
+
+::
+
+ sh setup.sh
+
+Your system is now ready for assignments.
+
+Manual Installation
+--------------------
+
+This assumes you already have Python 2.7 installed. On your `Codenvy <https://codenvy.io/>`_ platform, open a 'Terminal' and run the following
+piece of code to download the file :
+
+::
+
+ curl -O -J http://132.206.3.23:8056/uploads/comp102b-0.0.1-py2.py3-none-any.whl
+
+The binary is now downloaded in the file *comp.whl* . Install that file using the
+following command :
+
+::
+
+ pip install comp102b-0.0.1-py2.py3-none-any.whl
+
+This installs a command line tool, **comp102b**, using which we will start and
+submit all assignments. But first, you need to log in!
+
+Logging you in
+----------------
+
+You should be provided an unique username / password combination by the TA's. If not,
+just drop by a mail to TA's to get them.
+
+Once you have your username and password, log in the system using this command :
+
+::
+
+ comp102b login
+
+The system will prompt you for username and password. Remember, this is an Unix
+system so you would not *see* your password getting typed. Once done, press enter
+and you should be logged in.
+
+Now check whether you have been successfully logged in :
+
+::
+
+ comp102b whoami
+
+You should be able to see your name and email address.

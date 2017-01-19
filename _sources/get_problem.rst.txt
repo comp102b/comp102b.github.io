@@ -1,0 +1,23 @@
+Starting an assignment
+=======================
+
+After the assignments are announced in class, they can be started in the
+system. Let us see how to do that. First, using our handy **comp102b** tool,
+let us view the assignments :
+
+::
+
+ comp102b assignments
+
+This will list you the available assignments, their due dates and points associated
+with it. Now type the following to start an assignment :
+
+::
+
+ comp102b start
+
+You will be prompted to enter the assignment name. Enter the name of the assignment you want to
+start working on and press enter.
+
+Voila! The scaffolding has been made for you! In your project explorer you
+will see a directory with the problem name. (Given that you ran the above command within /projects/ directory)

@@ -1,0 +1,14 @@
+Running your solution
+=====================
+
+You can always run the solution locally (using `python <filename>` or `sh <filename>`),
+however we have also included a functionality within the **comp102b** system for
+you to run. To run your solution, type in the following :
+
+::
+
+ comp102b run
+
+This will now run the solution from `main.py`. Points to note that you should
+not alter `main.py` or wherever directed in order for your submission to run on
+our servers.
