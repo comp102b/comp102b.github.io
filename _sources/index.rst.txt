@@ -19,3 +19,5 @@ how to setup and use the system to easily submit your assignments.
    run_file
    submit
    codenvy
+   office_hours
+   system_setup

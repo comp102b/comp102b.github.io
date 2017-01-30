@@ -1,0 +1,44 @@
+Setting up your system
+========================
+
+If you are having trouble accessing Codenvy for your assignments, you can also
+manually set up your laptop / home computer with the tools required. All you need is
+to follow the steps with respect to your own operating system :
+
+Mac
+----------
+
+- Download `this script <uploads/setup_mac.sh>`_. Open your Terminal and navigate to the Downloads directory and run the script :
+
+  .. code-block:: bash
+
+    cd ~/Downloads
+    sh setup_mac.sh
+
+- This will install the Comp102B script in your system. Check whether it is installed by typing this command :
+
+  .. code-block:: bash
+
+    comp102b --help
+
+Ubuntu
+-----------
+
+- Download `this script <uploads/setup.sh>`_. Open your Terminal and navigate to the directory where it has downloaded (if in "Downloads") and run the script :
+
+  .. code-block:: bash
+
+    cd ~/Downloads
+    sh setup.sh
+
+- This will install the Comp102B script in your system. Check whether it is installed by typing this command :
+
+  .. code-block:: bash
+
+    comp102b --help
+
+
+Windows
+---------
+
+- Unfortunately we do not support Windows at this moment. Please try it on `Codenvy <https://codenvy.io/>`_ or in Trottier Lab computers (Ubuntu).

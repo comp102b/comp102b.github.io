@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Search &mdash; comp102b 1.0.0 documentation</title>
+  <title>Setting up your system &mdash; comp102b 1.0.0 documentation</title>
   
 
   
@@ -32,8 +32,9 @@
   
         <link rel="index" title="Index"
               href="genindex.html"/>
-        <link rel="search" title="Search" href="#"/>
-    <link rel="top" title="comp102b 1.0.0 documentation" href="index.html"/> 
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="comp102b 1.0.0 documentation" href="index.html"/>
+        <link rel="prev" title="Office Hours" href="office_hours.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -68,7 +69,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -83,7 +84,7 @@
             
             
                 <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="get_problem.html">Starting an assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="view_problems.html">View Assignments</a></li>
@@ -91,7 +92,12 @@
 <li class="toctree-l1"><a class="reference internal" href="submit.html">Submitting your Assignment</a></li>
 <li class="toctree-l1"><a class="reference internal" href="codenvy.html">Working on Codenvy</a></li>
 <li class="toctree-l1"><a class="reference internal" href="office_hours.html">Office Hours</a></li>
-<li class="toctree-l1"><a class="reference internal" href="system_setup.html">Setting up your system</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Setting up your system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mac">Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ubuntu">Ubuntu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#windows">Windows</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -114,7 +120,7 @@
         <div class="rst-content">
           
 
-
+ 
 
 
 
@@ -122,8 +128,12 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li></li>
+    <li>Setting up your system</li>
       <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/system_setup.rst.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
   </ul>
@@ -132,23 +142,62 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search
-      functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="setting-up-your-system">
+<h1>Setting up your system<a class="headerlink" href="#setting-up-your-system" title="Permalink to this headline">¶</a></h1>
+<p>If you are having trouble accessing Codenvy for your assignments, you can also
+manually set up your laptop / home computer with the tools required. All you need is
+to follow the steps with respect to your own operating system :</p>
+<div class="section" id="mac">
+<h2>Mac<a class="headerlink" href="#mac" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Download <a class="reference external" href="uploads/setup_mac.sh">this script</a>. Open your Terminal and navigate to the Downloads directory and run the script :</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/Downloads
+sh setup_mac.sh
+</pre></div>
+</div>
+</li>
+<li><p class="first">This will install the Comp102B script in your system. Check whether it is installed by typing this command :</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>comp102b --help
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="ubuntu">
+<h2>Ubuntu<a class="headerlink" href="#ubuntu" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first">Download <a class="reference external" href="uploads/setup.sh">this script</a>. Open your Terminal and navigate to the directory where it has downloaded (if in &#8220;Downloads&#8221;) and run the script :</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~/Downloads
+sh setup.sh
+</pre></div>
+</div>
+</li>
+<li><p class="first">This will install the Comp102B script in your system. Check whether it is installed by typing this command :</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>comp102b --help
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="windows">
+<h2>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Unfortunately we do not support Windows at this moment. Please try it on <a class="reference external" href="https://codenvy.io/">Codenvy</a> or in Trottier Lab computers (Ubuntu).</li>
+</ul>
+</div>
+</div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="office_hours.html" class="btn btn-neutral" title="Office Hours" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -186,7 +235,6 @@
       <script type="text/javascript" src="_static/jquery.js"></script>
       <script type="text/javascript" src="_static/underscore.js"></script>
       <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="_static/searchtools.js"></script>
 
   
 
@@ -202,14 +250,7 @@
           SphinxRtdTheme.StickyNav.enable();
       });
   </script>
-  
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
    
-
 
 </body>
 </html>
