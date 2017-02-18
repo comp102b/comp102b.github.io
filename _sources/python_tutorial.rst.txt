@@ -1,0 +1,10 @@
+Python Tutorial
+===============
+
+Following are the class notes for the Python Tutorial Part 1 held Monday, Feb 13th, 2017 at Trottier 3120, 5pm-7pm.
+
+.. raw:: html
+
+    <iframe src="uploads/python_tutorial_1.html" width="100%" height="900"></iframe>
+
+Check this space for news about Tutorial part 2!

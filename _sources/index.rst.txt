@@ -21,3 +21,4 @@ how to setup and use the system to easily submit your assignments.
    codenvy
    office_hours
    system_setup
+   python_tutorial
